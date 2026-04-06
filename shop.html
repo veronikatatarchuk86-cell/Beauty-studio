@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Studio | shop</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="apple-touch-icon" sizes="180x180" href="./image/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./image/favicon_io/site.webmanifest">
+</head>
+
+<body class="color-change-2x">
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal tutorial-modal-mobile">
+            <button class="btn" data-modal-close>x</button>
+            <form>
+                <label class="book">
+                    First name
+                    <input class="box" type="text" name="firstName" placeholder="Exapmle: Monika" autofocus />
+                </label>
+                <label class="book">
+                    Last name
+                    <input class="box" type="text" name="lastName" placeholder="Example: Smith" />
+                </label>
+                <label class="book">
+                    Phone number
+                    <input class="box" type="tel" name="phone" placeholder="Example: +1 ### ###-####" />
+                </label>
+                <label class="book">
+                    Email
+                    <input class="box" type="email" name="email" placeholder="Example: monika@gmail.com" />
+                </label>
+                <label class="book">
+                    Your Address
+                    <input class="box" type="email" name="email"
+                        placeholder="Example: вул. Хрещатик, будинок 25, квартира 5, Київ, 01001" />
+                </label>
+                <label class="book" for="size">Payment method</label>
+                <select class="services box" id="size" name="size">
+                    <option value="xs">Оплата картою</option>
+                    <option value="s">Оплата на пошті</option>
+                </select>
+
+                <!-- <div class="radio-btn-wrapper">
+                    <label>
+                        <input type="radio" name="color" value="red" />
+                        Red
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="white" checked />
+                        White
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="green" />
+                        Green
+                    </label>
+                </div> -->
+
+
+                <!-- <div class="radio-btn-wrapper">
+                    <label>
+                        <input type="checkbox" name="hobby" value="music" checked />
+                        Music
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobby" value="sports" checked />
+                        Sports
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobby" value="reading" />
+                        Reading
+                    </label>
+                </div> -->
+
+
+
+
+                <label class="book">
+                    Quantity of goods
+                    <input class="box" type="number" name="weight" min="0" max="200" step="1" value="0" />
+                </label>
+
+                <label class="book" for="size">Choose Product</label>
+                <select class="services box" id="size" name="size">
+                    <option value="xs">Primer</option>
+                    <option value="s">Foundation</option>
+                    <option value="m" selected>Concealer</option>
+                    <option value="l">Contour</option>
+                    <option value="xs">Blush</option>
+                    <option value="s">Powder</option>
+                    <option value="m" selected>Setting Spray</option>
+                    <option value="l">Bronzer</option>
+                    <option value="xs">Powder Blush</option>
+                    <option value="s">Mascara</option>
+                    <option value="xs">Highlighter</option>
+                    <option value="s">Eyeshadow Palette</option>
+                    <option value="m" selected>Eyeliner</option>
+                    <option value="l">Eyepencil</option>
+                    <option value="xs">Eyebrow Pencil</option>
+                    <option value="s">Eyebrow Gel</option>
+                    <option value="m" selected>Lipstick</option>
+                    <option value="l">Lip Gloss</option>
+                    <option value="xs">Lip Pencil(111)</option>
+                    <option value="s">Lip Pencil(102)</option>
+                </select>
+                <label class="book">
+                    Message
+                    <textarea class="box textarea" name="feedback" rows="5"
+                        placeholder="Enter your message here..."></textarea>
+                </label>
+                <br>
+                <div class="container_submit"><button class="submit_button" type="submit">Order</button></div>
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <a class="logo-link" href="index.html"><img class="logo-img text-focus-in" src="image/Beauty Logo.png" alt="logo"></a>
+
+        <nav>
+            <ul class="menu">
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="index.html">home</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="tutorial.html">tutorials</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="shop.html">shop</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <button class="btn-open text" data-modal-open>Order Now</button>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="contact.html">contact</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h1 class="beauty-studio-text text-focus-in">shop</h1>
+                <ul class="products-list plus mobile">
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://target.scene7.com/is/image/Target/GUEST_ee3da23f-fd8e-440a-9559-3ef56a3b7e2d?wid=1200&hei=1200&qlt=80"
+                            alt="product">
+                        <h3 class="product-title">
+                            primer
+                        </h3>
+                        <p class="product-price">price: 11$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRWGcaZBNcfw4ATfab8mcRkVdkRB5ZZunqIMPYD2EorvOohENiMBdSn1zHIH3mllQZerzECUD0TkfmxTH1OkC4neT8ntp5-87td9fposEUbleD-FEOdZjhO"
+                            alt="product">
+                        <h3 class="product-title">
+                            foundation
+                        </h3>
+                        <p class="product-price">price: 30$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQF5Ib3F_iYMJ4AUhJiS44LvnWDkvfWzeyi08P-9Gmo7zFqu93cycShHOocidt-sfHse1MTRm2cdyLDDIpETUGuYsd3_MoJXiZakR0PpMkh3_oVgkVDKlhpGwB0"
+                            alt="product">
+                        <h3 class="product-title">
+                            concealer
+                        </h3>
+                        <p class="product-price">price: 20$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://img.ltwebstatic.com/images3_pi/2024/09/02/04/17252704321b0be443046cbc6334725a9920c70891.jpg"
+                            alt="product">
+                        <h3 class="product-title">
+                            contour
+                        </h3>
+                        <p class="product-price">price: 6.39$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://www.sephora.com/productimages/sku/s2896181-main-zoom.jpg?imwidth=1224"
+                            alt="product">
+                        <h3 class="product-title">
+                            blush
+                        </h3>
+                        <p class="product-price">price: 25$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTMp9N2jUTeoyahFn4iBjbnfVpLhQgqQoFnDiGYQyPC7GzcLINGpXskcN44J1NjRUmm84YnpxkxV0NBCR4XwAvrD7nLQgTCh336ndOTULJQ-D6cYi3iDdMDww"
+                            alt="product">
+                        <h3 class="product-title">
+                            powder
+                        </h3>
+                        <p class="product-price">price: 39$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTgg0tetQSLF6Y2NI3gTMa9lqd0yo2tsCKZxXwWMOUxaYDoqpKHXJhUUUY84UW98cAxwFsvKKFg8u4QWdqb5GfyXQa9VqIhLVBC087XH3f-JnHW2xIKG9flwV8"
+                            alt="product">
+                        <h3 class="product-title">
+                            setting spray
+                        </h3>
+                        <p class="product-price">price: 14$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRPp0_9WtWGzlRpAyUUvuCOyJf_DXy1oYwzvjOpmxxzs4JkBORNeLCiPvxFNluXworJAb1NUR_PrJ2FxGXN4rjclVKB5BesHab36xnnYLSMIr-6QBGpVewSLg"
+                            alt="product">
+                        <h3 class="product-title">
+                            bronzer
+                        </h3>
+                        <p class="product-price">price: 20$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCoyHTZkrzPkyXueQ7c5u-igQGlWD284u56V6Psx2UgIX-i5GIpWUX10vCseAAYS4fnmYEkX9ckbCdmGw6BzdCuCkvN6PCI_-0emKW8ai0nzx1MH8JugcCkA"
+                            alt="product">
+                        <h3 class="product-title">
+                            powder blush
+                        </h3>
+                        <p class="product-price">price: 27$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQzCvM-18tidw8FEv0KHh44cXKF0b8dLJMDN99ta2rK_U6FPB4IUpir2PdPz94rgXQe-ibJ6iADnXhWpUmPhM4g571Tnj2yZ97nvLUjdlnYk13psmGeVoSacng"
+                            alt="product">
+                        <h3 class="product-title">
+                            mascara
+                        </h3>
+                        <p class="product-price">price: 10.82$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRfEDcAJDF_ZA1uLCT3Almv4h2xFyj5d2fsaVXhz14IAUWovxEhsYZIPGDfq02tg3aneswDY8XRQx5xWnyA9MZlRITKBsltPIvKKIlSMJoBkFt6l0FxDKFO"
+                            alt="product">
+                        <h3 class="product-title">
+                            highlighter
+                        </h3>
+                        <p class="product-price">price: 39$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSxBBRjxfTl_9Kuj_lWpvXKvCKQ12r7qCT_LrZYjdR6TDX9VL2hbD4r_ajpvCF9gS_eCypk6B1n3CPpvq13tObGpRBbuGmWOLJ73aQMo0wwyifAOWkX2iOD2w"
+                            alt="product">
+                        <h3 class="product-title">
+                            eyeshadow palette
+                        </h3>
+                        <p class="product-price">price: 11$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSKBdZLKqwYDbHowzi6CBO78uE8jLGwdFAqBrZf44ML0k6SDixkHcoGjjojaZwe6ONodtJMwCjhnWGsxTQvdK-ui3YJpaHGJ2eF5LxwZgg"
+                            alt="product">
+                        <h3 class="product-title">
+                            eyeliner
+                        </h3>
+                        <p class="product-price">price: 8$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTFwLaWmrmMbg6QfrC1t4TQbYsXmoEhERcrGQ8qJgG8StFuQMQH4yGKmeA6eTB91i5OP9dWmcmwOicXAn-UADv_OT1XlHaX6K6OnMp_06_X-6tYGS1T91Mp"
+                            alt="product">
+                        <h3 class="product-title">
+                            eyepencil
+                        </h3>
+                        <p class="product-price">price: 2.99$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRLs-1Aeg58LzqPUIFsU-q3dXUGjqkcc7eLrTr0u6AYLR1ce68Wyjz3U7JmNzLdvWVbJruyOE8HODh4v9wqZAxyjBlYK7F4fEu7bfafF44b7kT7MsZ3Pe-E"
+                            alt="product">
+                        <h3 class="product-title">
+                            eyebrow pencil
+                        </h3>
+                        <p class="product-price">price: 28$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRwXPG6z5SEHnLC1gqS6wEq3rhKm1Mpjwt62a5ROXjwIrl4GfhcGlPa31LYjDGV_HLGmYAkdoNeNbeLhTXav2V27lcjaHg1kAg4it2E7YVByvsqx0z_u_nigf4"
+                            alt="product">
+                        <h3 class="product-title">
+                            eyebrow gel
+                        </h3>
+                        <p class="product-price">price: 16$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRlULqnk-w1AtBnheJz3lPIME_CbBpTxK0T4XkX-sIg_RmQAcLxofjV5TOmoOGMt1kErEdiQ5quZZ34WCOUWAJZkjtZS74Nrvtjm9Oe4bXa_TV4CxGMXjardQ"
+                            alt="product">
+                        <h3 class="product-title">
+                            lipstick
+                        </h3>
+                        <p class="product-price">price: 25$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ3I_IN7ZNmqsufnWpOSedAFEpLPkw-Vepvrc03MHn33UeJQ4N0TEgo3zOnUFxR4YmTjHsCng3KtR_e4AKEIRw5EnA7xHAUUb9AMPhZW5g"
+                            alt="product">
+                        <h3 class="product-title">
+                            lip gloss
+                        </h3>
+                        <p class="product-price">price: 14$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="data:image/jpeg;base64,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"
+                            alt="product">
+                        <h3 class="product-title">
+                            lip pencil
+                        </h3>
+                        <p class="product-price">price: 2$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="data:image/png;base64,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"
+                            alt="product">
+                        <h3 class="product-title">
+                            lip pencil
+                        </h3>
+                        <p class="product-price">price: 2$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="header">
+        <a class="logo-link" href="index.html"><img class="logo-img text-focus-in" src="image/Beauty Logo.png" alt="logo"></a>
+
+        <nav>
+            <ul class="menu">
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="index.html">home</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="tutorial.html">tutorials</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="shop.html">shop</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="contact.html">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+
+</html>

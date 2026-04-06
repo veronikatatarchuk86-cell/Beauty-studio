@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./image/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./image/favicon_io/site.webmanifest">
+
+</head>
+
+<body class="color-change-2x">
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn" data-modal-close>x</button>
+            <form class="form_modal">
+                <label class="book">
+                    First name
+                    <input class="box" type="text" name="firstName" placeholder="Exapmle: Monika" autofocus />
+                </label>
+                <label class="book">
+                    Last name
+                    <input class="box" type="text" name="lastName" placeholder="Example: Smith" />
+                </label>
+                <label class="book">
+                    Phone number
+                    <input class="box" type="tel" name="phone" placeholder="Example: +1 ### ###-####" />
+                </label>
+                <label class="book">
+                    Email
+                    <input class="box" type="email" name="email" placeholder="Example: monika@gmail.com" />
+                </label>
+                
+                <label class="book" for="size">Choose Services</label>
+                <select class="services box" id="size" name="size">
+                    <option value="xs">Make up</option>
+                    <option value="s">Haircuts</option>
+                    <option value="m" selected>Nails</option>
+                    <option value="l">Brows and Lashes</option>
+                </select>
+                <label class="book">
+                    Date and time
+                    <input class="box" type="datetime-local" />
+                </label>
+                <label class="book">
+                    Message
+                    <textarea class="box textarea" name="feedback" rows="5"
+                        placeholder="Enter your message here..."></textarea>
+                </label>
+                <br>
+                <div class="container_submit"><button class="submit_button" type="submit">Submit</button></div>
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <a class="logo-link" href="index.html"><img class="logo-img text-focus-in" src="image/Beauty Logo.png"
+                alt="logo"></a>
+
+        <nav>
+            <ul class="menu">
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="index.html">home</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="tutorial.html">tutorials</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="shop.html">shop</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="contact.html">contact</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <button class="btn-open text" data-modal-open>Book Now</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="beauty-studio">
+            <h1 class="beauty-studio-text text-focus-in">beauty studio</h1>
+        </section>
+        <section class="quote">
+            <p class="quote-text">"Макіяж не створює красу — він лише підкреслює те, що вже є всередині тебе." —
+                Шарлотта Тілбері © </p>
+        </section>
+        <section class="tutorial-video fix">
+            <div class="container">
+                <ul class="tutorial-list_homepage">
+                    <li><iframe class="video-iframe shake-bottom" width="560" height="250"
+                            src="https://www.youtube.com/embed/O_qgaOUR3Fo?si=TtxuIJ7gc-ZURduX"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                    <li><iframe class="video-iframe shake-bottom" width="560" height="315"
+                            src="https://www.youtube.com/embed/yis52iAkYlQ?si=3r19KzOGkRY09nfR"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                    <li><iframe class="video-iframe shake-bottom" width="560" height="315"
+                            src="https://www.youtube.com/embed/MdLcP8dJls4?si=8hTindyPzWk_n3MJ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                </ul>
+            </div>
+        </section>
+        <section class="history-makeup">
+            <div class="container">
+                <h2 class="history-title text-shadow-pop-left">Історіа Makeup</h2>
+                <p class="history-text">Мейкап — це мистецтво нанесення косметики на обличчя для підкреслення краси,
+                    приховування недоліків
+                    або створення певного образу. Його історія сягає стародавніх часів: у Єгипті ще близько 4000 р. до
+                    н.е. люди фарбували очі сурмою та малахітом для краси й захисту, у Греції та Римі прагнули блідості
+                    обличчя, а в Середньовіччі макіяж часто засуджувався. З розвитком моди та кіно у ХХ столітті мейкап
+                    став популярним у всьому світі, перетворившись із ритуальної або соціальної практики на засіб
+                    самовираження та творчості.</p>
+            </div>
+        </section>
+        <section class="section-shop">
+            <div class="container">
+                <h2 class="section-shop-title text-shadow-pop-left">shop</h2>
+                <ul class="products-list">
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://target.scene7.com/is/image/Target/GUEST_ee3da23f-fd8e-440a-9559-3ef56a3b7e2d?wid=1200&hei=1200&qlt=80"
+                            alt="product">
+                        <h3 class="product-title">
+                            primer
+                        </h3>
+                        <p class="product-price">price: 11$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-foundation"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRWGcaZBNcfw4ATfab8mcRkVdkRB5ZZunqIMPYD2EorvOohENiMBdSn1zHIH3mllQZerzECUD0TkfmxTH1OkC4neT8ntp5-87td9fposEUbleD-FEOdZjhO"
+                            alt="product">
+                        <h3 class="product-title">
+                            foundation
+                        </h3>
+                        <p class="product-price">price: 30$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-cocealer"
+                            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQF5Ib3F_iYMJ4AUhJiS44LvnWDkvfWzeyi08P-9Gmo7zFqu93cycShHOocidt-sfHse1MTRm2cdyLDDIpETUGuYsd3_MoJXiZakR0PpMkh3_oVgkVDKlhpGwB0"
+                            alt="product">
+                        <h3 class="product-title">
+                            concealer
+                        </h3>
+                        <p class="product-price">price: 20$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://img.ltwebstatic.com/images3_pi/2024/09/02/04/17252704321b0be443046cbc6334725a9920c70891.jpg"
+                            alt="product">
+                        <h3 class="product-title">
+                            contour
+                        </h3>
+                        <p class="product-price">price: 6.39$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://www.sephora.com/productimages/sku/s2896181-main-zoom.jpg?imwidth=1224"
+                            alt="product">
+                        <h3 class="product-title">
+                            blush
+                        </h3>
+                        <p class="product-price">price: 25$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-image"
+                            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTMp9N2jUTeoyahFn4iBjbnfVpLhQgqQoFnDiGYQyPC7GzcLINGpXskcN44J1NjRUmm84YnpxkxV0NBCR4XwAvrD7nLQgTCh336ndOTULJQ-D6cYi3iDdMDww"
+                            alt="product">
+                        <h3 class="product-title">
+                            powder
+                        </h3>
+                        <p class="product-price">price: 39$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-spray"
+                            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTgg0tetQSLF6Y2NI3gTMa9lqd0yo2tsCKZxXwWMOUxaYDoqpKHXJhUUUY84UW98cAxwFsvKKFg8u4QWdqb5GfyXQa9VqIhLVBC087XH3f-JnHW2xIKG9flwV8"
+                            alt="product">
+                        <h3 class="product-title">
+                            setting spray
+                        </h3>
+                        <p class="product-price">price: 14$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-bronzer"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRPp0_9WtWGzlRpAyUUvuCOyJf_DXy1oYwzvjOpmxxzs4JkBORNeLCiPvxFNluXworJAb1NUR_PrJ2FxGXN4rjclVKB5BesHab36xnnYLSMIr-6QBGpVewSLg"
+                            alt="product">
+                        <h3 class="product-title">
+                            bronzer
+                        </h3>
+                        <p class="product-price">price: 20$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-blush"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCoyHTZkrzPkyXueQ7c5u-igQGlWD284u56V6Psx2UgIX-i5GIpWUX10vCseAAYS4fnmYEkX9ckbCdmGw6BzdCuCkvN6PCI_-0emKW8ai0nzx1MH8JugcCkA"
+                            alt="product">
+                        <h3 class="product-title">
+                            powder blush
+                        </h3>
+                        <p class="product-price">price: 27$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                    <li class="product-item">
+                        <img class="product-mascara"
+                            src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQzCvM-18tidw8FEv0KHh44cXKF0b8dLJMDN99ta2rK_U6FPB4IUpir2PdPz94rgXQe-ibJ6iADnXhWpUmPhM4g571Tnj2yZ97nvLUjdlnYk13psmGeVoSacng"
+                            alt="product">
+                        <h3 class="product-title">
+                            mascara
+                        </h3>
+                        <p class="product-price">price: 10.82$</p>
+                        <button class="product-button">buy</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container gallery">
+                <div class="controls">
+                    <button class="product-button" data-id="pane-1">Brushes</button>
+                    <button class="product-button" data-id="pane-2">Contouring</button>
+                    <button class="product-button" data-id="pane-3">Foundation</button>
+                </div>
+
+                <div id="pane-1" class="pane is-active">
+                    <iframe class="videos text-focus-in" width="560" height="315"
+                        src="https://www.youtube.com/embed/qfIZJx_zkNo?si=E0kAXVdIqo8Hkxsh" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="video-text"> - Підбираємо пензлі для макіяжу обличчя, очей, брів та з'ясовуємо який для
+                        чого потрібен. Серія
+                        відео макіяжу для себе. Сам собі візажист.
+                        Пензлики для макіяжу призначення.</p>
+                </div>
+                <div id="pane-2" class="pane">
+                    <iframe class="videos text-focus-in" width="560" height="315"
+                        src="https://www.youtube.com/embed/bqHvqhSNyWE?si=Dnhet3dqQqQ2kqbf" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="video-text"> - Розкрию 7 найпоширеніших помилок в контурінгу! Дізнайтеся про неправильний
+                        вибір пензликів та
+                        інструментів, а також правильну техніку для різних типів обличчя. (типи обличчя) </p>
+                </div>
+                <div id="pane-3" class="pane">
+                    <iframe class="videos text-focus-in" width="560" height="315"
+                        src="https://www.youtube.com/embed/kCpv8Bz8eAE?si=vKMlrA9FJBlIcSUH" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="video-text"> - Розкриваю 8 найчастіших помилок при нанесенні тональної основи! Дізнайтеся,
+                        як уникнути
+                        окислення, нерівномірного лягання та інших проблем. Покращте техніку та досягайте ідеального
+                        макіяжую</p>
+                </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="section-contact-title text-shadow-pop-left">
+                    Services
+                </h2>
+                <ul class="services_list">
+                    <li class="services_item">
+                        <img class="services_img"
+                            src="https://st.depositphotos.com/2422217/3549/i/450/depositphotos_35491957-stock-photo-brunette-with-ring-on-her.jpg"
+                            alt="Makeup">
+                        <h3 class="services_title">Make up</h3>
+                        <p class="services_script">Make up - це папка де зібрано все для того щоб зробити собі красиве
+                            дівчаче лице.</p>
+                        <a class="services_link" href="./makeup.html">More</a>
+                    </li>
+                    <li class="services_item">
+                        <img class="services_img" src="./image/modnie-strizki-i-pricheski-078.jpg" alt="Haircuts">
+                        <h3 class="services_title">Haircuts</h3>
+                        <p class="services_script">Haircuts – це папка, де зібрано все, що потрібно, щоб обрати ідеальну
+                            стрижку, підкреслити свою індивідуальність та створити стильний, доглянутий образ.</p>
+                        <a class="services_link" href="">More</a>
+                    </li>
+                    <li class="services_item">
+                        <img class="services_img"
+                            src="https://blog.globalfashion.pro/md/articles/gA8hoSuHOGQVyzShvw4YCB9EVYWVkE94vVUfHVHV.png"
+                            alt="Nails">
+                        <h3 class="services_title">Nails</h3>
+                        <p class="services_script">Nails – це папка, де зібрано все, що потрібно, щоб створити
+                            доглянуті, стильні та елегантні нігтики, підкреслити свій образ і додати йому унікальності.
+                        </p>
+                        <a class="services_link" href="">More</a>
+                    </li>
+                    <li class="services_item">
+                        <img class="services_img"
+                            src="https://ultimateescapedayspa.com/wp-content/uploads/2024/02/Ultimate-Brow-Package.jpg"
+                            alt="Brows and Lashes">
+                        <h3 class="services_title">Brows and Lashes</h3>
+                        <p class="services_script">Brows and Lashes - корекція та догляд за бровами та віями для
+                            виразного та охайного погляду.</p>
+                        <a class="services_link" href="">More</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-contact">
+            <div class="container">
+                <h2 class="section-contact-title text-shadow-pop-left">
+                    our contacts
+                </h2>
+                <a class="gmail" href="mailto:makeup_studio@gmail.com">makeup_studio@gmail.com</a>
+                <ul class="social_list">
+                    <li>
+                        <a target="_blank" href="https://www.tiktok.com/explore">
+                            <img class="tiktok heartbeat"
+                                src="https://wiki.archiveteam.org/images/thumb/e/ef/TikTok_logo.png/900px-TikTok_logo.png"
+                                alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/">
+                            <img class="instagram heartbeat"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png?20220518162235"
+                                alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://web.telegram.org/a/">
+                            <img class="telegram heartbeat"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png"
+                                alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.youtube.com/">
+                            <img class="youtube heartbeat"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png"
+                                alt="">
+                        </a>
+                    </li>
+                </ul>
+                <a class="gmail" href="tel:+19723633825">+1-972-363-3825</a>
+            </div>
+        </section>
+    </main>
+    <footer class="header  footer">
+        <a class="logo-link" href="index.html"><img class="logo-img text-focus-in" src="image/Beauty Logo.png"
+                alt="logo"></a>
+
+        <nav>
+            <ul class="menu">
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="index.html">home</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="tutorial.html">tutorials</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="shop.html">shop</a>
+                </li>
+                <li class="menu-item scale-in-center">
+                    <a class="menu-link" href="contact.html">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+
+</html>

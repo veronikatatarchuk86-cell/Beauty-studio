@@ -1,0 +1,1188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #d9a7c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.container {
+    width: 1259px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.logo-img {
+    border-radius: 50%;
+    width: 100px;
+    z-index: -100;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.menu-item {}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.menu-link:hover {
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 247, 238);
+}
+
+.beauty-studio {
+    background-image: url("https://archello.s3.eu-central-1.amazonaws.com/images/2018/03/22/---------------------------------------------.1521707101.6691.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding: 90px;
+}
+
+.beauty-studio-text {
+    text-align: center;
+    margin-top: 0;
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    position: relative;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    margin: 100px;
+}
+
+
+
+.tutorial-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.tutorial-list_homepage {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 30px;
+    position: relative;
+    left: -65px;
+}
+
+.video-iframe {
+    width: 450px;
+    height: 225px !important;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.video-iframe:hover {
+    box-shadow: 13px 13px 11px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+
+.history-makeup {
+    margin-top: 150px;
+}
+
+.history-title {
+    font-size: 60px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.history-text {
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+}
+
+/* section shop */
+
+.section-shop {}
+
+.section-shop-title {
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    margin-right: 400px;
+}
+
+.products-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+
+}
+
+.product-item {
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.product-image {
+    /* width: 200px; */
+    height: 150px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-title {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+.product-price {
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+}
+
+.product-button {
+    background-color: rgb(202, 234, 241);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.product-button:hover {
+    background-color: rgb(173, 196, 201);
+    cursor: pointer;
+
+}
+
+.product-foundation {
+    width: 53px;
+    display: block;
+    margin: 0 auto
+}
+
+.product-cocealer {
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-spray {
+    width: 100px;
+    display: block;
+    margin: 0 auto
+}
+
+.product-bronzer {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.product-blush {
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.product-mascara {
+    width: 85px;
+    margin-bottom: 0px;
+}
+
+.section-contact-title {
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+
+.tiktok {
+    width: 100px;
+}
+
+.instagram {
+    width: 100px;
+}
+
+.telegram {
+    width: 100px;
+}
+
+.youtube {
+    width: 100px;
+}
+
+.social_list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    /* border: 1px solid red; */
+    width: 600px;
+    margin: 0 auto;
+    padding-left: 0;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.gmail {
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    color: rgb(255, 167, 248);
+    font-size: 40px;
+    text-decoration: none;
+    border: none;
+    padding: 8px 15px;
+    text-shadow: 2px 2px 2px rgb(189, 75, 179);
+    margin-top: 25px;
+}
+
+.gmail:hover {
+    color: rgb(199, 131, 193);
+    cursor: pointer;
+}
+
+.tutorial-item {
+    width: 300px;
+}
+
+
+.tutorial_video {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+
+.map {
+    margin-top: 40px;
+}
+
+.pane {
+    display: none;
+    margin-top: 8px;
+}
+
+.pane.is-active {
+    display: block;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+}
+
+.video-text {
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+}
+
+.gallery {
+    width: 560px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.videos {
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.tutorial-video {
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.plus {
+    margin-bottom: 50px;
+}
+
+.fix {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.section-contact-title {}
+
+.services_list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+}
+
+.services_item {
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.services_img {
+    width: 300px;
+}
+
+.services_title {
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.services_script {
+    font-family: "Lobster", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.services_link {
+    background-color: #fba8f7;
+    border: none;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+
+.services_link:hover {
+    background-color: #d18dce;
+    cursor: pointer;
+}
+
+.beauty-makeup {
+    background-image: url("https://cdn.britannica.com/35/222035-050-C68AD682/makeup-cosmetics.jpg") !important;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding: 90px;
+}
+
+.makeup {
+    text-shadow: 2px 2px 2px white;
+}
+
+.services-item {
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: whitesmoke;
+
+}
+
+.makeup-img {
+    width: 300px;
+    height: 300px;
+}
+
+.services-button {
+    background-color: #fba8f7;
+    border: none;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+
+.services-button:hover {
+    background-color: #d18dce;
+    cursor: pointer;
+}
+
+/* ----- Forms ----- */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 500;
+    /* Додаємо плавний перехід */
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* Критично для приховування кліків */
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    min-height: 300px;
+    padding: 15px;
+    background-color: rgb(252, 150, 228);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.btn {
+    background-color: rgb(254, 212, 255);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: rgb(241, 172, 233);
+    cursor: pointer;
+}
+
+.btn-open {
+    background-color: rgb(254, 212, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+
+}
+
+.text:hover {
+    background-color: rgb(241, 172, 233);
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    font-family: inherit;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.radio-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.submit_button {
+    background-color: rgb(254, 212, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+
+}
+
+.submit_button:hover {
+    background-color: rgb(241, 172, 233);
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container_submit {
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 1px solid green;
+}
+
+.book {
+    font-family: "Lobster", sans-serif;
+}
+
+.services {
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.box {
+    border-radius: 20px;
+    background-color: rgb(254, 212, 255);
+    font-family: "Lobster", sans-serif;
+}
+
+.textarea {
+    padding: 10px;
+    font-family: "Lobster", sans-serif;
+    resize: none;
+}
+
+.form_modal {
+    z-index: 10000;
+}
+
+/* ----- Animations ----- */
+
+.scale-in-center:hover {
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@keyframes scale-in-center {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
+
+.flip-diagonal-2-br {
+    animation: flip-diagonal-2-br 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+
+@keyframes flip-diagonal-2-br {
+    0% {
+        transform: rotate3d(-1, 1, 0, 0deg);
+    }
+
+    100% {
+        transform: rotate3d(-1, 1, 0, 360deg);
+    }
+}
+
+.text-focus-in {
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.heartbeat:hover {
+    -webkit-animation: heartbeat 2s ease-in-out infinite both;
+    animation: heartbeat 2s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+.color-change-2x {
+    -webkit-animation: color-change-2x 4s linear infinite alternate both;
+    animation: color-change-2x 4s linear infinite alternate both;
+}
+
+
+@-webkit-keyframes color-change-2x {
+    0% {
+        background: #fffcdc;
+    }
+
+    100% {
+        background: #d9a7c7;
+    }
+}
+
+@keyframes color-change-2x {
+    0% {
+        background: #fffcdc;
+    }
+
+    100% {
+        background: #d9a7c7;
+    }
+}
+
+.shake-bottom:hover {
+    -webkit-animation: shake-bottom 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: shake-bottom 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+
+
+@-webkit-keyframes shake-bottom {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+
+    10% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    90% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes shake-bottom {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+
+    10% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    90% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+}
+
+.text-shadow-pop-left {
+    -webkit-animation: text-shadow-pop-left 0.6s both;
+    animation: text-shadow-pop-left 0.6s both;
+}
+
+
+@-webkit-keyframes text-shadow-pop-left {
+    0% {
+        text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        text-shadow: -1px 0 #555555, -2px 0 #555555, -3px 0 #555555, -4px 0 #555555, -5px 0 #555555, -6px 0 #555555, -7px 0 #555555, -8px 0 #555555;
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+}
+
+@keyframes text-shadow-pop-left {
+    0% {
+        text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        text-shadow: -1px 0 #555555, -2px 0 #555555, -3px 0 #555555, -4px 0 #555555, -5px 0 #555555, -6px 0 #555555, -7px 0 #555555, -8px 0 #555555;
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+}
+
+.tracking-in-expand-fwd-top {
+    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+@-webkit-keyframes tracking-in-expand-fwd-top {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-transform: translateZ(-700px) translateY(-500px);
+        transform: translateZ(-700px) translateY(-500px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand-fwd-top {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-transform: translateZ(-700px) translateY(-500px);
+        transform: translateZ(-700px) translateY(-500px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+/* МЕДІА ЗАПИТИ */
+
+@media screen and (max-width: 390px) {
+    .header {
+        width: 390px;
+        justify-content: flex-start;
+    }
+
+    .logo-img {
+        width: 50px;
+    }
+
+    .menu {
+        /* padding-left: 50px; */
+        /* gap: 11px; */
+
+        padding-left: 8px;
+        gap: 4px;
+    }
+
+    .menu-link {
+        font-size: 14px;
+    }
+
+    .btn-open {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .beauty-studio {
+        height: 330px;
+        padding-top: 100px !important;
+        padding-left: 20px;
+
+
+    }
+
+    .beauty-studio-text {
+        /* text-align: center; */
+        margin-top: 4px;
+        font-size: 55px;
+        font-family: "Bebas Neue", sans-serif;
+        /* position: relative; */
+        /* margin-left: 100px; */
+        /* position: static; */
+    }
+
+    .quote {
+        width: 335px;
+    }
+
+    .quote-text {
+        margin: 65px;
+        font-size: 16px;
+    }
+
+    .video-iframe {
+        width: 319px
+    }
+
+    .tutorial-list_homepage {
+        flex-direction: column;
+        /* padding-left: 80px; */
+
+        padding-left: 48px;
+
+    }
+
+    .history-title {
+        /* font-size: 35px; */
+        font-size: 28px;
+    }
+
+    .history-text {
+        /* font-size: 20px; */
+        /* width: 335px; */
+        /* padding-left: 15px; */
+
+        width: 300px;
+        font-size: 15px;
+        padding-left: 0px;
+    }
+
+    .products-list {
+        width: 335px;
+        /* padding-left: 55px; */
+
+        padding-left: 30px;
+    }
+
+    .section-shop-title {
+        /* width: 335px; */
+
+        width: 282px;
+    }
+
+    .videos {
+        /* width: 360px;
+        margin-left: 13px; */
+
+        width: 265px;
+        margin-left: 10px;
+        height: 182px !important;
+    }
+
+    .controls {
+        /* margin-left: 28px; */
+
+        margin-left: 2px;
+    }
+
+    .video-text {
+        width: 330px;
+        /* margin-left: 17px; */
+
+        margin-left: -7px;
+    }
+
+    .services_list {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .services_item {
+        width: 261px !important;
+
+        padding-bottom: 20px;
+    }
+
+    .services_img {
+        width: 260px;
+    }
+
+    .section-contact-title {
+        /* width: 335px; */
+
+        width: 298px;
+    }
+
+    .section-contact {
+        width: 350px;
+    }
+
+    .container {
+        width: 350px;
+    }
+
+    .gmail {
+        font-size: 22px;
+        text-align: center;
+        margin-left: -22px;
+
+
+    }
+
+    .social_list {
+        gap: 20px;
+        margin-left: 10px;
+    }
+
+    .tiktok {
+        width: 60px;
+    }
+
+    .instagram {
+        width: 60px;
+    }
+
+    .telegram {
+        width: 60px;
+    }
+
+    .youtube {
+        width: 60px;
+    }
+
+    .footer {
+        justify-content: flex-start;
+    }
+
+    .modal {
+        /* top: 33% !important;
+        left: 33% !important;
+        width: 264px !important; */
+
+        top: 28% !important;
+        left: 27% !important;
+        width: 242px !important;
+    }
+
+    .tutorial-list {
+        flex-wrap: wrap;
+        width: 305px;
+    }
+
+    .tutorial-modal-mobile {
+        top: 50% !important;
+        left: 50% !important;
+        width: 275px !important;
+    }
+
+    .mobile {
+        padding-left: 55px;
+    }
+
+    .iframe-map {
+        width: 350px;
+    }
+
+    .products-list {
+        width: 310px;
+    }
+
+    .social_list {
+        width: 360px;
+    }
+}
+
+/* МЕДІА ЗАПИТ tablet*/
+
+@media screen and (min-width: 391px) and (max-width: 1100px) {
+    .header {
+        width: 805px;
+    }
+
+    .beauty-studio-text {
+        margin-top: 50px;
+
+    }
+
+    .video-iframe {
+        width: 319px
+    }
+
+    .tutorial-list_homepage {
+        flex-direction: row;
+        /* padding-left: 80px; */
+        padding-left: 75px;
+        flex-wrap: wrap;
+        width: 820px;
+        justify-content: center;
+    }
+
+    .history-title {
+        /* font-size: 35px; */
+        font-size: 50px;
+    }
+
+    .container {
+        width: 820px;
+    }
+
+    .products-list {
+        justify-content: center;
+    }
+
+    .pane {
+        display: none;
+        margin-top: 8px;
+        width: 810px;
+        text-align: center;
+    }
+
+    .controls {
+        margin: 0 auto;
+        width: 288px;
+       
+    }
+
+    .services_list {
+        flex-wrap: wrap;
+        margin-left: 80px;
+    }
+
+    .tutorial-list {
+        width: 820px;
+        margin-left: 93px;
+    }
+
+    .iframe-map{
+        width: 820px;
+    }
+
+    .gmail{
+        margin-bottom: 35px;
+    }
+}
