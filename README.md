@@ -1,5 +1,8 @@
 # # 💄 Beauty Studio — Website
 
+<img width="2551" height="775" alt="Screenshot 2026-04-05 193101" src="https://github.com/user-attachments/assets/f135d90a-484f-423d-aa6e-81b428a32f96" />
+
+
 A multi-page beauty salon website featuring tutorials, an online shop, booking forms, and contact information.
 
 ---
